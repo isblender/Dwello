@@ -1,7 +1,7 @@
 from flask import Blueprint, request, jsonify
 from .. import db
 from ..models.apartment import Apartment
-
+#test commit
 apartment_blueprint = Blueprint('apartment', __name__)
 
 @apartment_blueprint.route('/', methods=['GET'])
