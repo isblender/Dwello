@@ -17,14 +17,12 @@ class Apartment(db.Model):
         return {
             'apartment_id': self.apartment_id,
             'address': self.address,
-            'city': self.city,
-            'state': self.state,
-            'zip_code': self.zip_code,
             'description': self.description,
             'available_from': self.available_from,
             'available_until': self.available_until,
             'created_at': self.created_at,
-            'number_of_rooms': self.number_of_rooms,
+            'looking_for_gender': self.looking_for_gender,
+            'looking_for_number': self.looking_for_number,
             'owner_id': self.owner_id,
             'price_per_month': self.price_per_month
         }
